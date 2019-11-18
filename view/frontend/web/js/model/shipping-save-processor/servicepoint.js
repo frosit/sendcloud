@@ -52,6 +52,7 @@ define([
                         sendcloud_service_point_city: $('[name="sendcloud_service_point_city"]').val(),
                         sendcloud_service_point_country: $('[name="sendcloud_service_point_country"]').val()
                     };
+
                     payload['addressInformation']['extension_attributes'] = sendCloudAttributes;
                 }
 
